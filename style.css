@@ -1,0 +1,99 @@
+/* Import Via Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@700&display=swap');
+
+.kalkulator{
+    width: 300px;
+    background: #eaeaea;
+    margin: 50px auto 40px;
+    padding: auto;
+    border-radius: 5px;
+}
+#layar{
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #cecece;
+    font-size: 25px;
+    font-weight: bold;
+    color: grey;
+    padding: 7x 5px;
+    text-align: right;
+    outline: none;
+    
+}
+#layar:hover{
+    place-content: none;
+}
+.container-tombol{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.tombol{
+ display: flex;
+ width: 25%;
+ border-radius: 4px;
+ font-size: 20px;
+ color: grey;
+ animation: cubic-bezier(0.075, 0.82, 0.165, 1);
+ font-weight: bold;
+ height: 70px;
+ border: 1px solid #cecece;
+ box-sizing: border-box;
+ justify-content: center;
+ align-items: center;
+ border-top: none;
+ border-left: none;   
+}
+.tombol:nth-child(4n+1){
+border-left: 1px solid #cecece;
+}
+.tombol:hover{
+    background: hsl(0, 0%, 89%);
+    cursor: pointer;
+}
+#nol{
+    flex-grow: 1;
+}
+.operator{
+    background: #d8d8d8;
+
+}
+.hitung{
+    background: #ffa64a;
+    color: whitesmoke;
+}
+#hitung:hover{
+    background: orange;
+}
+.container{
+
+    width: 50%;
+    margin: 50px auto 0px auto;
+}
+body{
+    background-image: url(./asset/plae.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position: 10%;
+    margin: 0;
+    padding: 0;
+}
+.rules{
+    margin-top: 10%;
+    background-color: thistle;
+    border: 1px solid gray;
+ 
+}
+footer > p{
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2%;
+    background-color: white;
+}
+.judul{
+    font-family: 'Lemonada', cursive;
+    text-align: center;
+    font-size: 50px;
+}
