@@ -5,10 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kalkulator Sederhana</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="/responsive.css">
+
+
 </head>
 <body>
-    <div class="container">
-        <p class="judul">Kalkulator Sederhana</p>
+
+    <div class="container-judul">
+        <p class="judul">Casio</p>
+    </div>
+    
+    <div class="container-content" id="box">
         <div class="kalkulator">
             <input type="text" id="layar">
             <br>
@@ -35,13 +42,23 @@
         </div>
     </div>
 
-        <div class="rules">
-            <p>Feature "<" digunakan untuk menghapus beberapa angka</p>
-            <p>Feature "C" digunakan untuk menghapus seluruh perhitungan</p>
-        </div>
+        
+        <!-- Disclaimer! -->
+        <fieldset>
+            <legend>Panduan</legend>
+            <div class="rules">
+                <ul>
+                    <li>Feature "<" digunakan untuk menghapus beberapa angka</li>
+                    <li>Feature "C" digunakan untuk menghapus seluruh perhitungan</li>
+                </ul>
+                
+                
+            </div>
+        </fieldset>
 
     <footer>
-        <p>Course Wegodev</p>
+        <p>Desain dan beberapa Codingan merupakan hasil pembelajaran  dari Kursus di <a href="https://www.wegodev.com/">Wegodev</a></p>
+        <p>&copy; 2020-2021</p>
     </footer>
 </body>
 <script src="./index.js"></script>

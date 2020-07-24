@@ -1,33 +1,42 @@
 /* Import Via Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@700&display=swap');
 
+body{
+    background-image: url(./asset/back.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 10px;
+    padding: 0;
+}
+
 .kalkulator{
-    width: 300px;
+    width: 100%;
     background: #eaeaea;
-    margin: 50px auto 40px;
+    margin: 50px auto 50px;
     padding: auto;
     border-radius: 5px;
 }
 #layar{
-    width: 100%;
+    width: 80%;
     box-sizing: border-box;
-    border: 1px solid #cecece;
+    /* border: 1px solid #cecece; */
     font-size: 25px;
     font-weight: bold;
-    color: grey;
-    padding: 7x 5px;
+    /* color: grey; */
+    /* padding: 7x 50px; */
     text-align: right;
     outline: none;
+    padding: 5%;
+    margin: auto 9%;
     
 }
+
 #layar:hover{
     place-content: none;
 }
-.container-tombol{
-    display: flex;
-    flex-wrap: wrap;
 
-}
 .tombol{
  display: flex;
  width: 25%;
@@ -65,40 +74,69 @@ border-left: 1px solid #cecece;
 #hitung:hover{
     background: orange;
 }
-.container{
 
+
+fieldset{
     width: 50%;
-    margin: 50px auto 0px auto;
-}
-body{
-    background-image: url(./asset/plae.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position: 10%;
-    margin: 0;
-    padding: 0;
-}
-.rules{
     /* margin-top: 10%; */
     margin: 50px auto 10px auto;
-    background-color: thistle;
-    border: 1px solid gray;
+    /* background-color:whitesmoke; */
+    /* border: 1px solid gray; */
+    background-color: seashell;
+    
  
 }
-footer > p{
+legend{
+    font-size: 2em;
+    text-align: center;
+}
+footer{
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
     padding-bottom: 2%;
     background-color: white;
+    padding-top: 20px;    
+}
+a{
+    text-decoration: none;
+    color: #ffa64a;
 }
 .judul{
     font-family: 'Lemonada', cursive;
     text-align: center;
     font-size: 50px;
 }
-.judul > p{
+ul li{
+    text-align: center;
+    list-style: none;
+    
+}
+p{
+    
     text-align: center;
     justify-content: center;
+}
+
+/* bagian Container */
+
+.container-judul{
+
+    width: 50%;
+    margin: 50px auto 0px auto;
+}
+.container-content{
+    background-color:#eaeaea;
+    width: 50%;
+    margin: auto 25%;
+    border: 1px solid grey;
+    border-width: 10px;
+
+
+}
+
+.container-tombol{
+    display: flex;
+    flex-wrap: wrap;
+
 }
