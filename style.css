@@ -80,7 +80,8 @@ body{
     padding: 0;
 }
 .rules{
-    margin-top: 10%;
+    /* margin-top: 10%; */
+    margin: 50px auto 10px auto;
     background-color: thistle;
     border: 1px solid gray;
  
@@ -96,4 +97,8 @@ footer > p{
     font-family: 'Lemonada', cursive;
     text-align: center;
     font-size: 50px;
+}
+.judul > p{
+    text-align: center;
+    justify-content: center;
 }
