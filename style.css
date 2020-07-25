@@ -127,6 +127,8 @@ p{
     margin: auto 25%;
     border: 1px solid grey;
     border-width: 10px;
+    transition-property: all;
+    transition: 0.5s;
 }
 .container-tombol{
     display: flex;

@@ -1,4 +1,4 @@
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 890px) {
     body{
         margin: 0;
         padding: 0;
@@ -11,6 +11,16 @@
         margin-right: 10%;
         border: 1px solid grey;
         border-width: 10px;
+        transition-property: all;
+        transition: 1s;
     }
+    
+    fieldset{
+    width: 70%;
+    
+    background-color: seashell;
+    
+ 
+}
 
 }
