@@ -133,3 +133,7 @@ p{
     flex-wrap: wrap;
 
 }
+b{
+    border: 1px solid grey;
+    background-color: lightgreen;
+}

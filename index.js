@@ -9,9 +9,6 @@ tombol.addEventListener("click", function(e){
     var tombolClick = e.target;
     var nilaiTombol = tombolClick.innerText;
 
-    if(isNaN(tombol)) {
-        alert('Sorry Your Input Invalid. Please Input a Number')
-    }
 
     if(nilaiTombol == "C"){
         layar.value = "";
